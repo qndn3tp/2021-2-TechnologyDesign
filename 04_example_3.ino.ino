@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
   Serial.println(++count);
-  toggle = count % 2; //toggle의 값은 count에 따라 0,1 반
+  toggle = count % 2; //toggle의 값은 count에 따라 0,1 반복
   digitalWrite(PIN_LED, toggle);
   delay(1000);
 }
