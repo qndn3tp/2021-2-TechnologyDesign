@@ -9,8 +9,8 @@
 // configurable parameters
 #define SND_VEL 346.0 // sound velocity at 24 celsius degree (unit: m/s)
 #define INTERVAL 25 // sampling interval (unit: ms)
-#define _DIST_MIN 100 // minimum distance to be measured (unit: mm)
-#define _DIST_MAX 400 // maximum distance to be measured (unit: mm)
+#define _DIST_MIN 180 // minimum distance to be measured (unit: mm)
+#define _DIST_MAX 360 // maximum distance to be measured (unit: mm)
 
 #define _DUTY_MIN 550 // servo full clockwise position (0 degree)
 #define _DUTY_NEU 1480 // servo neutral position (90 degree)
