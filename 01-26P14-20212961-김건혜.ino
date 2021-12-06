@@ -34,8 +34,8 @@
 #define _INTERVAL_SERIAL 100  //[2959] 시리얼 모니터/플로터의 인터벌값 설정
 
 // PID parameters
-#define _KP 1.2  //  비례이득
-#define _KD 50 // 미분이득
+#define _KP 1  //  비례이득
+#define _KD 35 // 미분이득
 
 // 실제 거리가 100mm, 400mm일 때 센서가 읽는 값(각 a, b)
 #define a 68.19
